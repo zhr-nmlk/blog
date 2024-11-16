@@ -20,7 +20,7 @@ hero:
 features:
   - title: Test
     details: Lorem ipsum dolor sit amet, con
-    link: https://zhr-nmlk.github.io/blog/
+    link: https://zhr-nmlk.github.io/blog/test
     linkText: test
   - title: Feature 2
     details: Lorem ipsum dolor sit amet, consectetur adipiscing
