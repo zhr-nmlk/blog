@@ -9,11 +9,14 @@ export default defineConfig({
   head: [
     ['link',{ rel: 'icon', href: 'logo.jpg'}]
   ],
+  sitemap: {
+    hostname: 'https://zhr-nmlk.github.io/blog/'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: '博客', link: '/markdown-examples' }
     ],
 
     sidebar: [
