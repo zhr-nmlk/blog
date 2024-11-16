@@ -13,13 +13,16 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: sponsor
+      text: Test
+      link: /test
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Feature 1
+    details: Lorem ipsum dolor sit amet, con
+  - title: Feature 2
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing
+  - title: Feature 3
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
