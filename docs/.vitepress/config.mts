@@ -7,7 +7,7 @@ export default defineConfig({
   title: "Soda's Blog",
   description: "A VitePress Site",
   head: [
-    ['link',{ rel: 'icon', href: 'logo.jpg'}]
+    ['link',{ rel: 'icon', href: 'logo.ico'}]
   ],
   sitemap: {
     hostname: 'https://zhr-nmlk.github.io/blog/'
@@ -43,6 +43,6 @@ export default defineConfig({
     },
 
     darkModeSwitchLabel: '深浅模式',
-    logo: '/logo.jpg',
+    logo: '/logo.ico',
   }
 })
