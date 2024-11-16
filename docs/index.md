@@ -8,7 +8,7 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 进入博客
       link: /markdown-examples
     - theme: alt
       text: API Examples
@@ -18,8 +18,10 @@ hero:
       link: /test
 
 features:
-  - title: Feature 1
+  - title: Test
     details: Lorem ipsum dolor sit amet, con
+    link: https://zhr-nmlk.github.io/blog/
+    linkText: test
   - title: Feature 2
     details: Lorem ipsum dolor sit amet, consectetur adipiscing
   - title: Feature 3
