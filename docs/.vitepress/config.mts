@@ -21,18 +21,28 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '前言',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: '因为什么搭建了这个博客', link: '/markdown-examples' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/zhr-nmlk?tab=repositories' }
     ],
-    
+    // 本地搜索
+    search: {
+      provider: 'local'
+    },
+
+    footer: {
+      copyright: 'copyright 2023-${new Date().getFullyear()} present Evan You'
+    },
+
+    darkModeSwitchLabel: '深浅模式',
     logo: '/blog/public/logo.jpg',
   }
 })
