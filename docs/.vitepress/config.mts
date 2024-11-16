@@ -7,7 +7,7 @@ export default defineConfig({
   title: "Soda's Blog",
   description: "A VitePress Site",
   head: [
-    ['link',{ rel: 'icon', href: '/blog/public/logo.jpg'}]
+    ['link',{ rel: 'icon', href: 'logo.jpg'}]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
