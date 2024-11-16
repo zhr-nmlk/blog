@@ -18,10 +18,10 @@ hero:
       link: /test
 
 features:
-  - title: Test
-    details: Lorem ipsum dolor sit amet, con
-    link: https://zhr-nmlk.github.io/blog/test
-    linkText: test
+  - title: 网站源码
+    details: Github，如无法加载请检查网络环境是否合适
+    link: https://github.com/zhr-nmlk/blog
+    linkText: 点击进入
   - title: Feature 2
     details: Lorem ipsum dolor sit amet, consectetur adipiscing
   - title: Feature 3
