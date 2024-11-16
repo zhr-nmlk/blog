@@ -43,6 +43,6 @@ export default defineConfig({
     },
 
     darkModeSwitchLabel: '深浅模式',
-    logo: '/blog/public/logo.jpg',
+    logo: '/logo.jpg',
   }
 })
