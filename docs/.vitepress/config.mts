@@ -3,8 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/blog/',
+  lang: 'zh-CN',
   title: "Soda's Blog",
   description: "A VitePress Site",
+  head: [
+    ['link',{ rel: 'icon', href: '/public/logo.jpg'}]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
